@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+//go:generate go-winres make --product-version=git-tag
 var (
 	Version string
 	Build   string
