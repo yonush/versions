@@ -24,4 +24,8 @@ install:
 clean:
 	if [ -f ${BINARY} ] ; then rm ${BINARY} ; fi
 
-.PHONY: clean install
+init:
+	go install github.com/tc-hib/go-winres@latest
+	go-winres init
+
+.PHONY: clean install init
