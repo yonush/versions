@@ -3,5 +3,5 @@ vendor
 .vscode
 debug*
 /tmp
-*.exe
-*.dll
+#*.exe
+#*.dll
